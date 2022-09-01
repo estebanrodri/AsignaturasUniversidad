@@ -1,0 +1,85 @@
+﻿@viewModel AsignaturasWeb.ViewModels.CRUD.CreateViewModel, AsignaturasWeb
+@masterPage Views/MasterPage.dotmaster
+@import AsignaturasWeb.Resources
+
+<dot:Content ContentPlaceHolderID="MainContent">
+    <div class="page-center">
+        <dot:RouteLink RouteName="Default" Text="Go back" class="page-button btn-back btn-long"/>
+        <form class="page-box"
+              Validator.InvalidCssClass="has-error"
+              Validator.SetToolTipText="true">
+
+            <h1>{{resource: Texts.Title_Create}}</h1>
+            <div Validator.Value="{value: asignatura.CodigoAsignatura}"
+                 class="page-input-box">
+                {{resource: Texts.Etiqueta_Codigo}}:
+                <dot:TextBox Text="{value: asignatura.CodigoAsignatura}" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: asignatura.CarreraProfesional}"
+                 class="page-input-box">
+                {{resource: Texts.Etiqueta_Carrera}}:
+                <dot:TextBox Text="{value: asignatura.CarreraProfesional}" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: asignatura.NombreAsignatura}"
+                 class="page-input-box">
+                {{resource: Texts.Etiqueta_Nombre}}
+                <dot:TextBox Text="{value: asignatura.NombreAsignatura}" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: asignatura.Creditos}"
+                 class="page-input-box">
+                {{resource: Texts.Etiqueta_Creditos}}
+                <dot:TextBox Text="{value: asignatura.Creditos}" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: asignatura.Cuatrimestre}"
+                 class="page-input-box">
+                {{resource: Texts.Etiqueta_Cuatrimestre}}
+                <dot:TextBox Text="{value: asignatura.Cuatrimestre}" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: asignatura.HorasSemanales}"
+                 class="page-input-box">
+                {{resource: Texts.Etiqueta_HorasSemanales}}
+                <dot:TextBox Text="{value: asignatura.HorasSemanales}" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: asignatura.DuracionSemanas}"
+                 class="page-input-box">
+                {{resource: Texts.Etiqueta_DuracionSemanas}}
+                <dot:TextBox Text="{value: asignatura.DuracionSemanas}" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: asignatura.Inicio}"
+                 class="page-input-box">
+                {{resource: Texts.Etiqueta_Inicio}}
+                <dot:TextBox Text="{value: asignatura.Inicio}" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: asignatura.Termino}"
+                 class="page-input-box">
+                {{resource: Texts.Etiqueta_Termino}}
+                <dot:TextBox Text="{value: asignatura.Termino}" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: asignatura.Docente}"
+                 class="page-input-box">
+                {{resource: Texts.Etiqueta_Docente}}
+                <dot:TextBox Text="{value: asignatura.Docente}" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: asignatura.Correo}"
+                 class="page-input-box">
+                {{resource: Texts.Etiqueta_Correo}}
+                <dot:TextBox Text="{value: asignatura.Correo}" class="page-input" />
+            </div>
+
+            <div class="btn-container">
+                <dot:Button Text="{resource: Texts.Label_Add}" Click="{command: AgregarAsignatura()}" class="page-button" IsSubmitButton />
+            </div>
+        </form>
+    </div>
+</dot:Content>
+

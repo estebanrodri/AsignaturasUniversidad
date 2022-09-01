@@ -1,0 +1,14 @@
+C:\Estructuras de Datos\Proyecto U - Karelia\AsignaturasUniversidad\AccesoADatos\bin\Debug\net6.0\AccesoADatos.deps.json
+C:\Estructuras de Datos\Proyecto U - Karelia\AsignaturasUniversidad\AccesoADatos\bin\Debug\net6.0\AccesoADatos.runtimeconfig.json
+C:\Estructuras de Datos\Proyecto U - Karelia\AsignaturasUniversidad\AccesoADatos\bin\Debug\net6.0\AccesoADatos.dll
+C:\Estructuras de Datos\Proyecto U - Karelia\AsignaturasUniversidad\AccesoADatos\bin\Debug\net6.0\AccesoADatos.pdb
+C:\Estructuras de Datos\Proyecto U - Karelia\AsignaturasUniversidad\AccesoADatos\obj\Debug\net6.0\AccesoADatos.csproj.AssemblyReference.cache
+C:\Estructuras de Datos\Proyecto U - Karelia\AsignaturasUniversidad\AccesoADatos\obj\Debug\net6.0\AccesoADatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estructuras de Datos\Proyecto U - Karelia\AsignaturasUniversidad\AccesoADatos\obj\Debug\net6.0\AccesoADatos.AssemblyInfoInputs.cache
+C:\Estructuras de Datos\Proyecto U - Karelia\AsignaturasUniversidad\AccesoADatos\obj\Debug\net6.0\AccesoADatos.AssemblyInfo.cs
+C:\Estructuras de Datos\Proyecto U - Karelia\AsignaturasUniversidad\AccesoADatos\obj\Debug\net6.0\AccesoADatos.csproj.CoreCompileInputs.cache
+C:\Estructuras de Datos\Proyecto U - Karelia\AsignaturasUniversidad\AccesoADatos\obj\Debug\net6.0\AccesoADatos.dll
+C:\Estructuras de Datos\Proyecto U - Karelia\AsignaturasUniversidad\AccesoADatos\obj\Debug\net6.0\refint\AccesoADatos.dll
+C:\Estructuras de Datos\Proyecto U - Karelia\AsignaturasUniversidad\AccesoADatos\obj\Debug\net6.0\AccesoADatos.pdb
+C:\Estructuras de Datos\Proyecto U - Karelia\AsignaturasUniversidad\AccesoADatos\obj\Debug\net6.0\AccesoADatos.genruntimeconfig.cache
+C:\Estructuras de Datos\Proyecto U - Karelia\AsignaturasUniversidad\AccesoADatos\obj\Debug\net6.0\ref\AccesoADatos.dll

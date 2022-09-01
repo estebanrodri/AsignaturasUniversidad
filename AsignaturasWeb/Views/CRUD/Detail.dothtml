@@ -1,0 +1,76 @@
+﻿@viewModel AsignaturasWeb.ViewModels.CRUD.DetailViewModel, AsignaturasWeb
+@masterPage Views/MasterPage.dotmaster
+@import AsignaturasWeb.Resources
+
+<dot:Content ContentPlaceHolderID="MainContent">
+
+    <div class="page-center">
+
+        <dot:RouteLink RouteName="Default" Text="Asignaturas" class="page-button btn-back btn-long" />
+
+        <div class="page-box">
+            <h1>{{resource: Texts.Title_Detail}}</h1>
+
+            <div class="page-input-box">
+                {{resource: Texts.Etiqueta_Codigo}}
+                <span class="input-text-only">{{value: Asignatura.CodigoAsignatura}}</span>
+            </div>
+
+            <div class="page-input-box">
+                {{resource: Texts.Etiqueta_Carrera}}
+                <span class="input-text-only">{{value: Asignatura.CarreraProfesional}}</span>
+            </div>
+
+            <div class="page-input-box">
+                {{resource: Texts.Etiqueta_Nombre}}
+                <span class="input-text-only">{{value: Asignatura.NombreAsignatura}}</span>
+            </div>
+
+            <div class="page-input-box">
+                {{resource: Texts.Etiqueta_Creditos}}
+                <span class="input-text-only">{{value: Asignatura.Creditos}}</span>
+            </div>
+
+            <div class="page-input-box">
+                {{resource: Texts.Etiqueta_Cuatrimestre}}
+                <span class="input-text-only">{{value: Asignatura.Cuatrimestre}}</span>
+            </div>
+
+            <div class="page-input-box">
+                {{resource: Texts.Etiqueta_HorasSemanales}}
+                <span class="input-text-only">{{value: Asignatura.HorasSemanales}}</span>
+            </div>
+
+            <div class="page-input-box">
+                {{resource: Texts.Etiqueta_DuracionSemanas}}
+                <span class="input-text-only">{{value: Asignatura.DuracionSemanas}}</span>
+            </div>
+
+            <div class="page-input-box">
+                {{resource: Texts.Etiqueta_Inicio}}
+                <span class="input-text-only">{{value: Asignatura.Inicio}}</span>
+            </div>
+
+            <div class="page-input-box">
+                {{resource: Texts.Etiqueta_Termino}}
+                <span class="input-text-only">{{value: Asignatura.Termino}}</span>
+            </div>
+
+            <div class="page-input-box">
+                {{resource: Texts.Etiqueta_Docente}}
+                <span class="input-text-only">{{value: Asignatura.Docente}}</span>
+            </div>
+
+            <div class="page-input-box">
+                {{resource: Texts.Etiqueta_Correo}}
+                <span class="input-text-only">{{value: Asignatura.Correo}}</span>
+            </div>
+
+            <div class="btn-container">
+                <dot:RouteLink RouteName="CRUD_Edit" Param-Id="{value: Asignatura.CodigoAsignatura}" Text="{resource: Texts.Label_Edit}" class="page-button" />
+                <dot:Button Click="{command: BorrarAsignatura()}" Text="{resource: Texts.Label_Delete}" class="page-button" />
+            </div>
+        </div>
+    </div>
+</dot:Content>
+
