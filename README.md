@@ -5,6 +5,7 @@ DotVVM de Visual Studio
 # Instalación
 
 Restaurar el archivo Backup de Base de Datos para SQLServer
+
 Cambiar el String de Conexión que se encuentra en el Proyecto AccesoADatos en la carpeta Modelos en el archivo UniversidadABCContext
 
      optionsBuilder.UseSqlServer("Server=LAPTOP-6F2GNN6S; Database=UniversidadABC; Trusted_Connection = True;");
